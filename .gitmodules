@@ -1,0 +1,4 @@
+[submodule "resque"]
+	path = resque
+	url = https://github.com/resque/resque.git
+	branch = master
