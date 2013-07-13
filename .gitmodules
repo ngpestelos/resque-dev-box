@@ -30,3 +30,7 @@
 	path = chef/cookbooks/rvm
 	url = https://github.com/fnichol/chef-rvm.git
 	branch = master
+[submodule "chef/cookbooks/redis"]
+	path = chef/cookbooks/redis
+	url = https://github.com/ngpestelos/chef-redis.git
+	branch = master

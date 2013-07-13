@@ -18,6 +18,7 @@ Vagrant.configure("2") do |config|
     chef.add_recipe "recipe[locale]"
     chef.add_recipe "recipe[rvm::user]"
     chef.add_recipe "recipe[rvm::vagrant]"
+    chef.add_recipe "recipe[redis]"
     chef.json = {
       :rvm => {
         :user_installs => [{
