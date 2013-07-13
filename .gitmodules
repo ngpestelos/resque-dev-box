@@ -18,3 +18,7 @@
 	path = chef/cookbooks/openssl
 	url = https://github.com/opscode-cookbooks/openssl.git
 	branch = master
+[submodule "chef/cookbooks/locale"]
+	path = chef/cookbooks/locale
+	url = https://github.com/ngpestelos/chef-locale.git
+	branch = master
