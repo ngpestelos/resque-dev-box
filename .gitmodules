@@ -2,3 +2,7 @@
 	path = resque
 	url = https://github.com/resque/resque.git
 	branch = master
+[submodule "chef/cookbooks/apt"]
+	path = chef/cookbooks/apt
+	url = https://github.com/opscode-cookbooks/apt.git
+	branch = master

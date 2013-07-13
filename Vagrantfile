@@ -9,4 +9,8 @@ Vagrant.configure("2") do |config|
 
   config.vm.synced_folder ".", "/vagrant", id: "vagrant-root", :nfs => true
 
+  config.vm.provision :chef_solo do |chef|
+    chef.cookbooks_path = ["chef/cookbooks"]
+    chef.add_recipe "recipe[apt]"
+  end
 end
